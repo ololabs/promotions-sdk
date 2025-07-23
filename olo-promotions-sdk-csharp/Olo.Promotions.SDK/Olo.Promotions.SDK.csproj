@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        
+        <Authors>Olo</Authors>
+        <RepositoryUrl>https://github.com/ololabs/olo-promotions-sdk</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/ololabs/olo-promotions-sdk</PackageProjectUrl>
+        <PackageId>Olo.Promotions.SDK</PackageId>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>2.1.1</Version>
+        <Title>Olo Promotions SDK</Title>
+        <Description>An SDK for integrating with the Promotions Spec. Supports Promotions 2.0.
+
+View the Promotions Spec documentation at https://developer.olo.com/docs.</Description>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <PackageIcon>olo.jpg</PackageIcon>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="olo.jpg">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+
+      <None Update="LICENSE.md">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+    </ItemGroup>
+
+</Project>
