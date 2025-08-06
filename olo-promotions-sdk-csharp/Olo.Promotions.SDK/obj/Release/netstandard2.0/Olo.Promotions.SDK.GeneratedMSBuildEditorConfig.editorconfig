@@ -1,8 +1,0 @@
-is_global = true
-build_property.RootNamespace = Olo.Promotions.SDK
-build_property.ProjectDir = /Users/runner/work/olo-promotions-sdk/olo-promotions-sdk/Olo.Promotions.SDK/
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.CsWinRTUseWindowsUIXamlProjections = false
-build_property.EffectiveAnalysisLevelStyle = 
-build_property.EnableCodeStyleSeverity = 
